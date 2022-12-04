@@ -28,10 +28,10 @@ int main(int argc , char ** argv)
     ifstream infile;
     string fileName = name.substr (0,name.find("."));      
     cout<<fileName<<endl;
-    ofstream outfile((fileName + ".hack"));
+    ofstream outfile(("./outputs/" + fileName + ".hack"));
     symp.label_tour(name);
 
-        infile.open(name);
+        infile.open("./inputs/" + name);
         line = "";
         while (getline(infile, line)) {
     
