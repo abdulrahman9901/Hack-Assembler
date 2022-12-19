@@ -1,5 +1,5 @@
 
-# Assembler 
+# Hack Assembler 
  
 #### This project is doing the complete functionality of an assembler converting assembly code to machine code  but with small instruction set for a small processor that i have implemented in simulation tool.
 
